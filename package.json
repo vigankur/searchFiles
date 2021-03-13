@@ -1,0 +1,22 @@
+{
+  "name": "searchfiles",
+  "version": "1.0.0",
+  "description": "It searches for the keyword in all files recursively in all folders present in current directory of the program and lists absolute path of all files that contain the keyword.",
+  "main": "searchFiles.js",
+  "scripts": {
+    "start": "node searchFiles.js todo",
+    "test": "mocha searchFiles.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "abc.git"
+  },
+  "author": "Ankur Vig",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.3.1",
+    "mock-fs": "^4.13.0"
+  }
+}
