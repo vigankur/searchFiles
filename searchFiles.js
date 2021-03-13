@@ -7,7 +7,6 @@ var dirPath = path.join(__dirname, '');
 
 /**
 * Function that reads a file in streams/chunks and searches for keyword in the file
-* @author   John
 * @param    {String} keyword        search text keyword
 * @param    {String} dirPath        Path of file/directory
 * @param    {array} arrayOfFiles    List of absolute paths of files
@@ -39,7 +38,6 @@ getAllFiles = function (keyword, dirPath = __dirname, arrayOfFiles = []) {
 
 /**
 * Function that reads a file in streams/chunks and searches for keyword in the file
-* @author   John
 * @param    {String} keyword        search text keyword
 * @param    {String} dirPath        Path of file/directory
 * @param    {array} arrayOfFiles    List of absolute paths of files
@@ -89,7 +87,6 @@ searchTextInFile = function (keyword, dirPath, file, arrayOfFiles) {
 
 /**
 * Function that writes the results to a file
-* @author   Ankur
 * @param    {array} arrayOfFiles    List of absolute paths of files
 * @return   {<Promise>}             Resolve/Reject
 */
